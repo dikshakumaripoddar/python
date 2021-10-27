@@ -1,0 +1,5 @@
+pip install pillow 
+from PIL import image
+imag=Image.open('C:\Windows\nec0819015\pic\.jfif');
+bw=img.convert("l")
+bw.show()
